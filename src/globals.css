@@ -1,0 +1,15 @@
+:global *,
+:global *::after,
+:global *::before {
+  box-sizing: border-box;
+}
+
+:global html {
+  font-family: verdana, sans-serif;
+  font-size: 100%;
+}
+
+:global html,
+:global body {
+  margin: 0;
+}

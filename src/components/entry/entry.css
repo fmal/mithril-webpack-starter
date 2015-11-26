@@ -1,0 +1,18 @@
+.root {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: .5rem;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.button {
+  composes: input;
+
+  margin-left: 1rem;
+}
