@@ -7,7 +7,12 @@ import m, { mount } from 'mithril';
 import AppLayout from './components/appLayout';
 import appState from './models/appState';
 
-mount(document.body, <AppLayout messages={appState.messages} />);
+mount(
+  document.getElementById('root'),
+  <AppLayout
+    messages={appState.messages}
+  />
+);
 
 if (module.hot) {
   module.hot.accept();
